@@ -1,267 +1,257 @@
-/*..........REF. IMAGEM DO FUNDO DO POST - LATERAIS ...........*/
-
-
-html {
-background: #000000 url("http://i39.tinypic.com/snf2wm.jpg");
-border-top: 0px solid #000000
-margin-top: 0px;
-cursor: hand;}
-
-
-
-/* .......... REF IMAGEM DO FUNDO - CENTRAL ........... */
-
-body {
-margin: auto;
-width:1050px;
-body-align: center;
-background:#000000 url("");
-border-left: 0px solid ;
-border-right: 0px solid ;}
-
-
-/* ............. REF A FONTE DO FLOG ................*/
-
+body {body-align: right; width: 825px;   margin: auto;}
+html  	{background: #e5ddd8; border: 0px solid #e5ddd8;}
+p, a, body, td, tr, div {color: #efeae7;}
+body {background: url() #efeae7; 
+ }
+   
 p, a, body, td, tr, div {
+font-style: normal;
 font-weight: normal;
-font-style: tahoma;
-font-family: tahoma;
-font-size: 12px;
-font-color: #B07889;
-line-height: 13px;}
-
-
-/* ....... REF AOS LINKS - IMAGENS E BORDAS ....... */
-
-a, a:link, a:visited, a:active{
-color:#DE91B8;
-font: 12px tahoma;
-letter-spacing: 0px;
--webkit-transition-duration: 0.9s;
-text-transform: none uppercase;
-TEXT-DECORATION: none;
-cursor: hand;}
-
-a:hover {
-color:  #808080;   
-background: url("") no-repeat   #000000;
-border-bottom: 0px dashed none;
-font: 12px tahoma;
-letter-spacing: 0px;
--webkit-transition-duration: 0.9s;
-padding-left: 5px;
-text-transform: none uppercase;
-TEXT-DECORATION: none;
-cursor: hand;}
-
-HR{
-border: 0px solid #F58FAF;
+font-size: 11px;
+color: #7c6c63;
+font-family: verdana;
 }
 
 
-/* ............... REF AO TiTULO - FIXO .............. */
+a, a:link{color: #7c7c7d; cursor: w-resize;
+TEXT-DECORATION: none; font-weight: ;}
 
-.titulo {
-border-bottom: 5px dotted  #000000; font-weight: normal; font-size: 25px; color: #EEBFDA;
+a:hover {color: #5f5f5f; cursor: w-resize;
+TEXT-DECORATION: none; font-weight: ; cursor: Pointer;
+background-color: #;
+border-bottom: 0px dashed #f1e3d2;
 }
 
-body
-{
-background-attachment: fixed
+
+.titulo {font: 11px georgia; font-weight: bold; text-transform: none; font-weight: italic;}
+
+/* --- caixas ---*/
+
+input, textarea, select 
+	{font-family: Verdana; 
+	font-size: 11px;
+	cursor: size;
+	color: #7c6c63;
+        border-bottom: 0px solid #c9c9c9;
+        border-top: 0px solid #c9c9c9;
+        border-right: 0px solid #c9c9c9;
+        border-left: 0px solid #c9c9c9;
+	background-color: #efeae7;
+        -moz-border-radius: px;
+        line-height:12px;
+        padding: 5px;
 }
 
 
-/* ............. REF BARRAS DO TOP ............. */
+::-moz-selection
+{color: #;
+background: #;}
+
+::selection
+{color: #;
+background: #efeae7;}
+
+/* ------------ BARRA-------------- */
 
 #barra {
-height: 50px;
-color: ;
-background: ("") ;
-width: 100%;
-align:center;
-border-top: 0px outset ;}
+height: 100px;
+font-size: 10px; 
+color:#f9e1ef;
+background: #e5ddd8;
+}
 
 #barra .tubo {
 text-align:center;
-background:("");
-margin: 0 auto; padding:10;
-width: 100%;
-border-top: 0px outset ;
-border-bottom: 1px solid none;
-background:url("");margin: 0 auto; padding:0;width: 100%;}
-
-
-#barra {margin: 0; padding:0;width: 100%; height: 50px;background:#0A0A0A; background:urlz("");text-align: center;}
-
+background:#e5ddd8;
+margin: 0 auto; 
+padding:0px;
+height: 10px;
+width: 100%;}
 
 #barra .fvbarraf {
-width: 50px;
-height: 20px;
-background: #000000;
-color: #ED7E94
+width: 100px;
+height: 10px;
+font-family: Droid Serif;
+font-size: 10px; 
+color:#333333;
+text-decoration: bold;
+text-transform: Uppercase; 
+-moz-border-radius: 0px 0px 0px 0px;
+background-color: #efeae7;
+border: 1px dotted #453a3a;
+}
+
+#barra .fvbarra a:link, #barra .fvbarra a:visited , #barra .fvbarra a:active  {
+color: #d3c3b9;
+font-family: Droid Serif;
+font-size: 10px;
+line-height: 45px;
+text-align:center;
+text-transform: Uppercase;
+padding: 11px;
+height: 70px;
+text-decoration: none; 
+-moz-border-radius: 0px 0px 0px 0px;
+background-color: #7c6c63;
+transition: all 0.5s ease-out;
+}
+
+#barra .fvbarra a:hover {
+color: #d3c3b9;
+cursor: Pointer;
+font-family: Droid Serif;
+font-size: 10px;
+line-height: 45px;
+height: 70px;
+margin-top: 5px;
+text-align:left;
+padding: 11px;
+text-transform: uppercase;
+text-decoration: ; 
+background-color: #8b7b72;
 }
 
 
-#barra .fvbarra a:link, #barra .fvbarra a:visited , #barra .fvbarra a:active {
-color:#F5C7E1;
-text-align: center;
-padding: 0px;
-text-decoration: none;
-background-color:}
-
-#barra .fvbarra a:hover {
-color:  #959D99;
-text-align: center;
-padding: 0px;
-text-decoration: none;
-background-color:}
-
+#barra .fvbarra {
+font: bold 10px Droid Serif;
+text-decoration: bold; 
+text-transform: Uppercase;
+height: 70px;
+color: #e5ddd8; 
+}
 
 #barra .barraimg {
 opacity:.0;}
-
-/* ............ REF. OPACIDADE NAS IMAGENS............ */
-
-
-
-
-
-
-
-
-
-
-
-
-
-1
-2
-3
-4
-5
-6
-7
-8
-9
-
-10
-11
-12
-13
-14
-15
-
-*/
-
-a img {
-filter:alpha gray(opacity=85);
--moz-opacity: 0.90;
-opacity: 0.90;
-border: 0px outset #F99596;
-border-radius: 2px;
--moz-border-radius: 2px;
-padding: 1px;
-margin: 2px;
-}
-
-
-a:hover img {
-filter:alpha gray(opacity=100);
--moz-opacity: 1.0;
-opacity: 1.0;
-border: 0px outset #F99596;
--moz-border-radius: 2px;
-padding: 1px;
-margin: 2px;
-}
-
-a img {
-filter:alpha (opacity=65);
--moz-opacity:0.90;
-opacity:0.80;
-}
-
-a:hover img {
-filter:alpha gray (opacity=100);
--moz-opacity:0.90;
-opacity:0.90;
-}
-
-a img {
-border-left: 2px solid transparent;
-border-right: 2px solid transparent;
-border-top: 2px solid transparent;
-border-bottom: 2px solid transparent;
-border-radius: 2px;
+ 
+        
+#footer {color: #7c6c63;
+font: 11px verdana; 
+background: #dbcfc8;
+border-top: 0px dashed #91b3af;
 -moz-border-radius: 0px;
--webkit-border-radius: 0px;
-background-image: url("imagem aqui");
-padding: 0px;
-margin: 0px;
-}
+line-height: 14px;
+text-align:center;
+padding: 4px;
+text-decoration: none; 
+cursor: text;}
+/*--------Post by -------*/
 
-a:hover img {
-border-left: 2px solid transparent;
-border-right: 2px solid transparent;
-border-top: 2px solid transparent;
-border-bottom: 2px solid transparent;
-border-radius: 2px;
--moz-border-radius: 0px;
--webkit-border-radius: 0px;
-background-image: url("mesma imagem aqui");
-padding: 0px;
-margin: 0px;
-}
+.fundopost{
+background: #e9e3df url() bottom repeat;
+border-bottom: 6px solid #ded4ce;
+border-top: 6px solid #ded4ce;
+border-right: 1px solid #ded4ce;
+border-left: 1px solid #ded4ce;
+        text-align: justify;
+        padding: 3px 3px 3px 3px;
+        width: 500px;	
+        -moz-border-radius: 0px 0px 0px 0px;
+        line-height: 13px;
+        font-family: verdana;}
 
-/* ---------------- REF AO RODape? ------------- */
-
-#footer {
-background-position: bottom;
-width: 1020px;
-height:3px;
-clear: both;
+.esquerda {
+width: 96px;
+height: 54px;
+float: left;
+margin: 0;
 text-align: center;
-background: url("");
+font-family: arial, georgia;
+background: #efeae7;
+border-bottom: 1px solid #dbcec6;
+border-top: 1px solid #dbcec6;
+border-right: 1px solid #dbcec6;
+border-left: 1px solid #dbcec6;
+border-radius: 5px;
+
 }
 
-
-
-/* ............. REF CAIXA COMENTARIO - CSS ............ */
-
-input, textarea, select
-{font-family:tahoma;
-font-size: 12px;
-color: #AF6E81;
-width:98%;
-align:center;
-text-align: center; 
-background-color:#000000 ;
-background-image : url("");
-}
-
-/*............ REF CAIXA COMENTaRIO DOS AMIGOS .........*/
-
-.cmttext {
-align:center;
-text-align: center; 
-font-family:tahoma;
-font-size:12px;
-font-weight: normal;
-background-color:#000000 ;
-background-image : url("");
-padding: 0px;
-}
-
-/*............. REF CAIXA EXTERNA - ACOLHEDORA ...........*/
-
-.comentarios {
-
-width:400px;
-align:center; 
-text-align: center; 
-padding:1px;
-color: #5F5C54;
+.direita{
+width: 387px;
+height: 70px;
+float: right;
+margin: 0;
+text-align: center;
+font-family: arial, georgia;
+background: #efeae7;
+border-bottom: 0px solid #201b21;
+border-top: 0px solid #201b21;
+border-right: 4px solid #7c7c7d;
+border-left: 0px solid #201b21;
 -moz-border-radius: 4px 4px 4px 4px;
-background-color:#000000;
-background-image : url("");
+
 }
+
+.table {
+font-family: verdana;
+line-height: 13px;
+color: #7c6c63;
+font-size: 11px;
+border-bottom: 2px solid #d6cac3;
+background-color: #efeae7;
+padding: 3px;
+-moz-border-radius: 0px 0px 0px 0px;
+width: 400px;}
+
+
+
+/* --- negrito, italico, sublinhado --- */
+
+	i {color: #736469; TEXT-DECORATION: none;}
+	u {color: #736469; TEXT-DECORATION: none;}
+	b {color: #7c7c7d; TEXT-DECORATION: none;}
+       linha {color: #d3cc71; TEXT-DECORATION: dotted;}
+
+/* --- Menu  --- */
+#footlink {
+text-align:center;
+clear: both;
+line-height:18px;}
+#footlink a:link, #footlink a:visited, #footlink a:active {
+color: #7c6c63;
+font-size : 7pt;
+padding: 5px 4px 3px 4px;
+text-transform: uppercase;
+background-color: #efeae7;
+-moz-border-radius: 1px;
+border-top: 4px solid #e1d6cf;
+border-left: 1px solid #e1d6cf;
+border-right: 1px solid #e1d6cf;
+border-bottom: 4px solid #e1d6cf;}
+
+#footlink a:hover {
+color: #7c7c7d;
+font-size : 7pt;
+padding: 3px 4px 3px 4px;
+text-transform: uppercase;
+background-color: #efeae7;
+-moz-border-radius: 1px;
+border-top: 7px solid #e1d6cf;
+border-right: 1px solid #e1d6cf;
+border-left: 1px solid #e1d6cf;
+border-bottom: 7px solid #e1d6cf;
+
+}
+
+Opacidade by maite flogvip ladygaga
+
+-webkit-transition: all 0.7s ease-out; 
+-moz-transition: all 0.7s ease-out; 
+transition: all 0.7s ease-out;
+-webkit-transition-duration: 0.9s;
+-webkit-transition: all 0.6s ease-out; 
+-moz-transition: all 0.6s ease-out; 
+transition: all 0.6s ease-out;
+-webkit-transition-duration: 0.9s;
+
+a img {-moz-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+ -moz-border-radius: 4px 4px 4px 4px;  
+-webkit-transition:0.8s linear;
+filter:alpha(opacity=100); -moz-opacity:1.0; opacity:1.0; -webkit-transition: opacity 0.7s linear; -moz-border-radius: 20px 20px 20px 20px; }
+a:hover img {-moz-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+  -moz-border-radius: 4px 4px 4px 4px; 
+-webkit-transition:0.8s linear; -moz-opacity:0.80; opacity:0.80;-webkit-transition: opacity 0.7s linear;}
+
