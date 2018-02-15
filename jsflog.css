@@ -137,11 +137,11 @@ cursor: text;}
 /*--------Post by -------*/
 
 .fundopost{
-background: #e9e3df url() bottom repeat;
-border-bottom: 6px solid #ded4ce;
-border-top: 6px solid #ded4ce;
-border-right: 1px solid #ded4ce;
-border-left: 1px solid #ded4ce;
+background: #221f1f url() bottom repeat;
+border-bottom: 6px solid #221f1f;
+border-top: 6px solid #221f1f url(http://i65.tinypic.com/nwebzp.png) ;
+border-right: 1px solid #221f1f;
+border-left: 1px solid #221f1f;
         text-align: justify;
         padding: 3px 3px 3px 3px;
         width: 500px;	
