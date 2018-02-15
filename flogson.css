@@ -206,17 +206,18 @@ width: 400px;}
 text-align:center;
 clear: both;
 line-height:18px;}
+font-family: georgia;
 #footlink a:link, #footlink a:visited, #footlink a:active {
 color: #efeae7;
 font-size : 7pt;
-padding: 0px 0px 0px 0px;
+padding: 9px 9px 9px 9px;
 text-transform: uppercase;
 background-color: #410c17;
 -moz-border-radius: 1px;
-border-top: 4px solid #e1d6cf;
-border-left: 1px solid #e1d6cf;
-border-right: 1px solid #e1d6cf;
-border-bottom: 4px solid #e1d6cf;}
+border-top: 0x solid #e1d6cf;
+border-left: 0px solid #e1d6cf;
+border-right: 0px solid #e1d6cf;
+border-bottom: 0px solid #e1d6cf;}
 
 #footlink a:hover {
 color: #7c7c7d;
