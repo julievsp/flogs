@@ -139,7 +139,7 @@ cursor: text;}
 .fundopost{
 background: #221f1f url() bottom repeat;
 border-bottom: 6px solid #221f1f;
-border-top: 6px solid #221f1f url(http://i65.tinypic.com/nwebzp.png) ;
+border-top: 6px solid #221f1f;
 border-right: 1px solid #221f1f;
 border-left: 1px solid #221f1f;
         text-align: justify;
